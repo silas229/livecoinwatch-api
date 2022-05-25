@@ -1,0 +1,36 @@
+{
+  "name": "silas229/livecoinwatch-api",
+  "description": "API Wrapper for the LiveCoinWatch API",
+  "keywords": [
+    "livecoinwatch"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Silas Meyer",
+      "email": "silas.meyer@outlook.de",
+      "homepage": "https://github.com/silas229"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^7.4.3",
+    "guzzlehttp/psr7": "^2.2.1"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest",
+    "phpunit/phpunit": "^9.5.20",
+    "vlucas/phpdotenv": "^5.4.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "LiveCoinWatchApi\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "LiveCoinWatchApi\\Tests\\": "tests/"
+    }
+  }
+}
